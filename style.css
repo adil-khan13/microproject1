@@ -1,0 +1,381 @@
+.container {
+  position: relative;
+  background-color: #ffffff;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  display: flex;
+  width: 1728px;
+  height: 70px;
+  background: #6f6af7;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo {
+  padding-top: 13px;
+  width: 150px;
+  height: 40px;
+  padding-right: 80px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.home {
+  position: absolute;
+  width: 102px;
+  height: 30px;
+  left: 300px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.about {
+  position: absolute;
+  width: 157px;
+  height: 36px;
+  left: 420px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.info {
+  position: absolute;
+  width: 199px;
+  height: 36px;
+  left: 580px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.more {
+  position: absolute;
+  width: 89px;
+  height: 36px;
+  left: 770px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.drop {
+  position: absolute;
+  top: 15px;
+  left: 69px;
+  height: 4px;
+  width: 8px;
+}
+.search {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 900px;
+  top: 9px;
+  background: #ffffff;
+  border-radius: 63px;
+}
+.search1 {
+  position: absolute;
+  width: 90px;
+  height: 12px;
+  left: 910px;
+  top: 5px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #9f9f9f;
+}
+.mg {
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top: 29px;
+  left: 1070px;
+}
+.menu {
+  position: absolute;
+  height: 38px;
+  width: 50px;
+  left: 1450px;
+  top: 14px;
+}
+.middle {
+  display: flex;
+  padding-top: 110px;
+  padding-left: 90px;
+  padding-right: 100px;
+}
+.midleft {
+  padding-top: 20px;
+}
+.code {
+  height: 430px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 27px 0px #00000040 inset;
+}
+.text {
+  background: #e5d8ff;
+  border: 6px solid #ffffff;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+  height: 400px;
+  width: 800px;
+  border-radius: 20px;
+  margin-left: 95px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.t1 {
+  top: 25px;
+  left: 40px;
+  color: #6f7373;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  word-spacing: 14px;
+}
+.t2 {
+  top: 52px;
+  left: 40px;
+  color: #6f7373;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  word-spacing: 12px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  float: right;
+  margin-top: 180px;
+  top: 71px;
+}
+/* .whatsapp,
+.facebook,
+.twitter {
+  margin-left: 55px;
+} */
+.w {
+  border: 2px solid black;
+  height: 35px;
+  width: 35px;
+  border-radius: 20%;
+}
+.f {
+  border: 2px solid black;
+  height: 35px;
+  width: 35px;
+  border-radius: 20%;
+}
+.t {
+  border: 2px solid black;
+  height: 35px;
+  width: 35px;
+  border-radius: 20%;
+}
+.lowtop {
+  display: flex;
+}
+.questions {
+  background: #929dff;
+  border: 1px solid #929dff;
+  height: 90px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  margin-left: 70px;
+  margin-top: 40px;
+  line-height: 29px;
+  padding-top: 15px;
+}
+
+.answers {
+  background: #734cf2;
+  border: 1px solid #734cf2;
+  height: 90px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  margin-left: 140px;
+  margin-top: 40px;
+  line-height: 29px;
+  padding-top: 15px;
+}
+.participated {
+  background: #d288ff;
+  border: 1px solid #d288ff;
+  height: 90px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  margin-left: 140px;
+  margin-top: 40px;
+  line-height: 29px;
+  padding-top: 15px;
+}
+.passed {
+  background: #000000;
+  border: 1px solid #000000;
+  height: 90px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  margin-left: 140px;
+  margin-top: 40px;
+  line-height: 29px;
+  padding-top: 15px;
+}
+.ques,
+.ans,
+.par,
+.pass {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding-left: 20px;
+}
+.ques1,
+.ans1,
+.par1,
+.pass1 {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding-left: 20px;
+}
+.help {
+  position: fixed;
+  background: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px 10px;
+  top: 690px;
+  left: 1400px;
+}
+
+.bottom {
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: #483eff;
+  width: 1320px;
+  height: 500px;
+  padding-top: 40px;
+  padding-left: 50px;
+  margin-left: 80px;
+  margin-top: 130px;
+}
+.bottomleft {
+  display: flexbox;
+}
+.information,
+.book,
+.set {
+  border: 3px solid #ffffff;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  margin-top: 30px;
+  padding-top: 35px;
+  font-style: bold;
+  font-family: "DM Sans";
+  font-weight: 800;
+}
+.information {
+  background-color: #bce0f6;
+}
+.information1,
+.book1,
+.set1 {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-style: bold;
+}
+.information1 {
+  color: #000000;
+  margin-left: 55px;
+}
+.book1 {
+  margin-left: 50px;
+}
+.set1 {
+  margin-left: 65px;
+}
+.bottomright {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 460px;
+  width: 890px;
+  margin-left: 100px;
+  padding-left: 30px;
+}
+.list {
+  list-style: none;
+  font-size: 25px;
+  font-family: "DM Sans";
+}
+.name {
+  margin-top: 40px;
+}
+.email,
+.number,
+.marks {
+  margin-top: 30px;
+}
+.colon1 {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.colon2 {
+  margin-left: 30px;
+  margin-right: 26px;
+}
+.colon3 {
+  margin-left: 20px;
+  margin-right: 26px;
+}
+.colon4 {
+  margin-left: 29px;
+  margin-right: 25px;
+}
+.txt {
+  font-size: 20px;
+}
+button {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 780px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.arr {
+  height: 10px;
+}
